@@ -64,7 +64,8 @@ Ou abra pelo [Google Colab](https://colab.research.google.com/)
 
 - Análise descritiva:
   Com o intuito de avaliar o comportamento dos dados, análises gráficas, tabulares e análises descritivas foram feitas. As Figuras a seguir ilustram alguns desses resultados:
-  ><div align="center"><img src="output.png" alt="Categorização de variável com nulos" width="600"/></div>
+  ><div align="center"><img src="output2.png" alt="Categorização de variável com nulos" width="600"/></div>
+ ><div align="center"><img src="output1.png" alt="Categorização de variável com nulos" width="600"/></div>
  
 
 ---
