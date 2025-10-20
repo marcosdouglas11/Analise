@@ -63,6 +63,7 @@ Ou abra pelo [Google Colab](https://colab.research.google.com/)
 ## 📊 Resultados Esperados
 
 - Análise descritiva:
+  
   Com o intuito de avaliar o comportamento dos dados, análises gráficas, tabulares e análises descritivas foram feitas. As Figuras a seguir ilustram alguns desses resultados:
 ><div align="center"><img src="output2.png" alt="Análise de correlação linear" width="400"/></div>
 Após uma análise de correalação, pôde-se verificar a existência de uma correlação linear forte entre a variável Tenure e TotalCharges. Sendo assim, para o modelo, necessário utilizar somente uma ou realizar uma redução de dimensionalidade.
