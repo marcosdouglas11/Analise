@@ -16,6 +16,7 @@ Portanto, o intuito deste projeto é:
 ## 🧰 Tecnologias Utilizadas
 
 - Python 3.x
+- Xgboost
 - [NumPy](https://numpy.org/)
 - [Pandas](https://pandas.pydata.org/)
 - [Matplotlib](https://matplotlib.org/)
@@ -23,16 +24,15 @@ Portanto, o intuito deste projeto é:
 
 ### 📦 Instalação dos Pacotes
 ```bash
-   pip install numpy pandas matplotlib scikit-learn
+   pip install -r requirements.txt
 ```
 ---
 
 ## 📁 Estrutura do Projeto
 ```
-Regressao-Logistica/
+analises/
 ├── data/           # Dados utilizados (CSV ou outros formatos)
 ├── notebooks/      # Notebooks com código e análises
-├── models/         # Modelos salvos (opcional)
 └── README.md       # Documentação do projeto
 ```
 
