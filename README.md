@@ -64,7 +64,9 @@ Ou abra pelo [Google Colab](https://colab.research.google.com/)
 
 - Análise descritiva:
   Com o intuito de avaliar o comportamento dos dados, análises gráficas, tabulares e análises descritivas foram feitas. As Figuras a seguir ilustram alguns desses resultados:
-><div align="center"><img src="output2.png" alt="Categorização de variável com nulos" width="400"/></div>
+><div align="center"><img src="output2.png" alt="Análise de correlação linear" width="400"/></div>
+Após uma análise de correalação, pôde-se verificar a existência de uma correlação linear forte entre a variável Tenure e TotalCharges. Sendo assim, para o modelo, necessário utilizar somente uma ou realizar uma redução de dimensionalidade.
+
 ><div align="center"><img src="output1.png" alt="Categorização de variável com nulos" width="400"/></div>
 ><div align="center"><img src="output3.png" alt="Categorização de variável com nulos" width="400"/></div>
 ><div align="center"><img src="output4.png" alt="Categorização de variável com nulos" width="400"/></div>
