@@ -59,8 +59,8 @@ analises/
 Ou abra pelo [Google Colab](https://colab.research.google.com/)
 
 ---
-
-## 📊 Resultados Esperados
+## 📊 Base de Dados
+## 📊 Resultados
 
 - Análise descritiva:
   
@@ -81,7 +81,26 @@ Assim como na MonthlyCharges, nota-se uma mediana em torno de 70.7 para o client
 ><div align="center"><img src="output8.png" alt="Gráficos de Colunas Justaspostas" width="400"/></div>
      
  
+- Modelos de Classificação:
+  Para os modelos de classificação, inicialmente foram testadas todas as variáveis do conjunto de dados, no entanto, considerando que algumas influenciavam na redução dos valores das métricas de desempenho, foram retiradas tais variáveis. E ainda no caso em que houve correlação linear entre variáveis numéricas, foram consideradas somente uma entre essas correlacionadas para evitar questões de multicolinearidade.
+  Em relação a partição das bases, foi realizada uma separação em base de treino, teste e validação. Sendo assim, nesta etapa inferencial, foram testados 4 modelos de classificação, sendo: Decision tree, Random Forest, Xgboost e Naive Bayes. Portanto, a seguir podemos observar tais resultados:
+  
+  ## Decision Tree
+  >##### Base de Teste - Churn
+>|Modelo|   Acurácia|   Precisão|   Recall| F1 Score|
+>|------|------------|-----------|---------|---------|
+>|Decision Tree|    0.56|    0.37|      0.37|     0.37|
+>|Random Forest|    0.59|     0.39|     0.26|   0.31|
+>|XGBoosting|     0.60|     0.39|     0.27|     0.32| 
+>|Naive Bayes|    0.59|     0.43|     0.53   |0.48|
 
+>  >##### Base de Validação - Churn
+>|Modelo|   Acurácia|   Precisão|   Recall| F1 Score|
+>|------|------------|-----------|---------|---------|
+>|Decision Tree|    0.56|    0.35|      0.39|     0.37|
+>|Random Forest|      0.59|      0.37|     0.31|      0.33|
+>|XGBoosting|     0.61|     0.38|     0.29|     0.33| 
+>|Naive Bayes|    0.60|     0.43|     0.54|0.48|  
 ---
 
 ## 📬 Contato
