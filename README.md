@@ -41,17 +41,17 @@ analises/
 
 1. Clone o repositório:
 ```bash
-   git clone https://github.com/fabiooliveira95/Regressao-Logistica.git
+   git clone https://github.com/marcosdouglas11/Analise.git
 ```
 
-3. Navegue até a pasta:
+2. Navegue até a pasta:
 ```bash
-   cd Regressao-Logistica
+   cd notebooks
 ```
 
-4. Execute os notebooks:
+3. Execute os notebooks:
 ```bash
-   jupyter notebook
+   01_EDA 02_Modeling
 ```
 ```bash
    jupyter lab
