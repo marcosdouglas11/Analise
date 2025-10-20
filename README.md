@@ -1,15 +1,16 @@
 [Uploading README.md…]()
-# 🔍 Regressão Logística com Python – Projeto de Classificação
+# 🔍 Modelo de Classificação - Churn 
 
-Este repositório apresenta um projeto prático de **Regressão Logística**, técnica de aprendizado supervisionado usada para problemas de classificação binária. A aplicação foi desenvolvida com Python, utilizando bibliotecas populares de ciência de dados.
+Este repositório apresenta um projeto prático de modelos de classificação, utilizando técnicas de aprendizado supervisionado usada para problemas de classificação binária. A aplicação foi desenvolvida com Python, utilizando bibliotecas populares de ciência de dados.
 ---
 ## 🎯 Objetivo
-
-Demonstrar, na prática, como utilizar a regressão logística para:
-- Treinar um modelo de classificação
-- Avaliar métricas de desempenho
-- Visualizar os resultados preditivos
-
+Uma empresa de telecomunicações quer reduzir a rotatividade de clientes (“churn”). Seu 
+papel é entregar um pipeline de dados que identifique quais clientes têm maior 
+probabilidade de cancelar o serviço, apoiando ações de retenção.
+Portanto, o intuito deste projeto é:
+- Realizar uma Análise Descritiva dos dados para entender o comportamento dos clientes;
+- Treinar modelos de classificação
+- Avaliar os resultados e métricas de desempenho entre tais modelos e definir o modelo vencedor
 ---
 
 ## 🧰 Tecnologias Utilizadas
