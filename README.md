@@ -67,13 +67,17 @@ Ou abra pelo [Google Colab](https://colab.research.google.com/)
 ><div align="center"><img src="output2.png" alt="Análise de correlação linear" width="400"/></div>
 Após uma análise de correalação, pôde-se verificar a existência de uma correlação linear forte entre a variável Tenure e TotalCharges. Sendo assim, para o modelo, necessário utilizar somente uma ou realizar uma redução de dimensionalidade.
 
-><div align="center"><img src="output1.png" alt="Categorização de variável com nulos" width="400"/></div>
-><div align="center"><img src="output3.png" alt="Categorização de variável com nulos" width="400"/></div>
-><div align="center"><img src="output4.png" alt="Categorização de variável com nulos" width="400"/></div>
-><div align="center"><img src="output5.png" alt="Categorização de variável com nulos" width="400"/></div>
-><div align="center"><img src="output6.png" alt="Categorização de variável com nulos" width="400"/></div>
-><div align="center"><img src="output7.png" alt="Categorização de variável com nulos" width="400"/></div>
-><div align="center"><img src="output8.png" alt="Categorização de variável com nulos" width="400"/></div>
+><div align="center"><img src="output1.png" alt="Histogramas" width="400"/></div>
+Por meio dos Histogramas acima, foi possível verificar o comportamento das variáveis numéricas, mostrando a distribuição dos dados. Nota-se que a TotalCharges possui uma assimetria à direita, já a Tenure e MonthlyCharges se assemelham a distribuições Uniforme.
+
+><div align="center"><img src="output3.png" alt="Boxplot" width="400"/></div>
+><div align="center"><img src="output4.png" alt="Boxplot" width="400"/></div>
+><div align="center"><img src="output5.png" alt="Boxplot" width="400"/></div>
+Após realizar uma análise bivariada entre as variáveis numéricas e a variável resposta: Churn, trazendo algumas medidas descritivas como: média, mediana e desvio padrão, foi possivel ver que não existe uma distinção discrepante entre os grupos do Churn (Yes; No), mostrando que em média o valor do TotalCharges fica em torno de 2562.1 para o que não teve cancelamento versus 2472.5 para o que teve cancelamento. 
+Assim como na MonthlyCharges, nota-se uma mediana em torno de 70.7 para o cliente que não realizou o cancelamento versus 69.5 para o cliente que realizou o cancelamento. E o mesmo comportamento similar na variável Tenure, mostrando uma média de 36.4 para o cliente que não realizou o cancelamento versus 35.6 para o cliente que realizou o cancelamento.
+><div align="center"><img src="output6.png" alt="Gráficos de Colunas Justaspostas" width="400"/></div>
+><div align="center"><img src="output7.png" alt="Gráficos de Colunas Justaspostas" width="400"/></div>
+><div align="center"><img src="output8.png" alt="Gráficos de Colunas Justaspostas" width="400"/></div>
      
  
 
