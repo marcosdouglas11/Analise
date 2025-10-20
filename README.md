@@ -78,10 +78,10 @@ Após realizar uma análise bivariada entre as variáveis numéricas e a variáv
 Assim como na MonthlyCharges, nota-se uma mediana em torno de 70.7 para o cliente que não realizou o cancelamento versus 69.5 para o cliente que realizou o cancelamento. E o mesmo comportamento similar na variável Tenure, mostrando uma média de 36.4 para o cliente que não realizou o cancelamento versus 35.6 para o cliente que realizou o cancelamento.
 ><div align="center"><img src="output6.png" alt="Gráficos de Colunas Justaspostas" width="400"/></div>
 ><div align="center"><img src="output7.png" alt="Gráficos de Colunas Justaspostas" width="400"/></div>
-><div align="center"><img src="output8.png" alt="Gráficos de Colunas Justaspostas" width="400"/></div>
-     
+    
  
 - Modelos de Classificação:
+  
   Para os modelos de classificação, inicialmente foram testadas todas as variáveis do conjunto de dados, no entanto, considerando que algumas influenciavam na redução dos valores das métricas de desempenho, foram retiradas tais variáveis. E ainda no caso em que houve correlação linear entre variáveis numéricas, foram consideradas somente uma entre essas correlacionadas para evitar questões de multicolinearidade.
   Em relação a partição das bases, foi realizada uma separação em base de treino, teste e validação. Sendo assim, nesta etapa inferencial, foram testados 4 modelos de classificação, sendo: Decision tree, Random Forest, Xgboost e Naive Bayes. Portanto, a seguir podemos observar tais resultados:
   
@@ -101,7 +101,27 @@ Assim como na MonthlyCharges, nota-se uma mediana em torno de 70.7 para o client
 >|Random Forest|      0.59|      0.37|     0.31|      0.33|
 >|XGBoosting|     0.61|     0.38|     0.29|     0.33| 
 >|Naive Bayes|    0.60|     0.43|     0.54|0.48|  
+
+- Modelo Escolhido:
+
+  Baseado nos resultados obtidos das métricas, que xgboosting obteve alguns valores mais elevados nas métricas, no entando o naive bayes obvete os maiores valores e uma variação menor entre as métricas das duas bases, mostrando maior confiabilidade. A  Figura a seguir, traz a ilustração da Curva ROC.
+
+  ><div align="center"><img src="output8.png" alt="Curva ROC - Naive Bayes" width="400"/></div>
+
+>|Feature|Mean Class = 1|
+>|-------|--------------|
+>|gender_Male |     0.141329|
+>|Partner_Yes  |    0.129870|
+>|DeviceProtection_Yes|      0.129106|
+>|TotalCharges      |0.498854|
+>|MonthlyCharges     | 0.281131|
+>|Dependents_Yes      |0.273491|
+>|SeniorCitizen      |0.267380|
+>|DeviceProtection_No internet service|      0.506494|
+>|Contract_Two year    | 69.269817|
+>|Contract_One year   |2465.417548|
 ---
+
 
 ## 📬 Contato
 
