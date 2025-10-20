@@ -32,7 +32,9 @@ Portanto, o intuito deste projeto é:
 ```
 analises/
 ├── data/           # Dados utilizados (CSV ou outros formatos)
+├── imagens/        # imagens dos resultados para o README
 ├── notebooks/      # Notebooks com código e análises
+├── requirements.txt # Bibliotecas a serem instaladas
 └── README.md       # Documentação do projeto
 ```
 
@@ -53,13 +55,11 @@ analises/
 ```bash
    01_EDA 02_Modeling
 ```
-```bash
-   jupyter lab
-```
-Ou abra pelo [Google Colab](https://colab.research.google.com/)
-
 ---
-## 📊 Base de Dados
+## Base de Dados
+
+
+
 ## 📊 Resultados
 
 - Análise descritiva:
@@ -122,14 +122,5 @@ Assim como na MonthlyCharges, nota-se uma mediana em torno de 70.7 para o client
 >|DeviceProtection_No internet service|      0.506494|
 >|Contract_Two year    | 69.269817|
 >|Contract_One year   |2465.417548|
----
-
-
-## 📬 Contato
-
-Fábio Oliveira  
-🔗 [LinkedIn](https://www.linkedin.com/in/fabio-oliveira-araujo-cientista/)  
-📧 fabiooliveira0067@gmail.com
-
 ---
 
