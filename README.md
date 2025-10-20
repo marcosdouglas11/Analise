@@ -108,6 +108,8 @@ Assim como na MonthlyCharges, nota-se uma mediana em torno de 70.7 para o client
 
   ><div align="center"><img src="output8.png" alt="Curva ROC - Naive Bayes" width="400"/></div>
 
+  No Naive Bayes, não é calculada as Feature importance diretamente. No entanto, é possível inferir a importância das características analisando as probabilidades condicionais ou os pesos associados a cada característica. Sendo assim, é possível analisar média (theta_) e a variância (sigma_) de cada característica para cada classe. Na tabela a seguir pode-se observar tal média.
+
 >|Feature|Mean Class = 1|
 >|-------|--------------|
 >|gender_Male |     0.141329|
