@@ -72,12 +72,12 @@ Após uma análise de correalação, pôde-se verificar a existência de uma cor
 Por meio dos Histogramas acima, foi possível verificar o comportamento das variáveis numéricas, mostrando a distribuição dos dados. Nota-se que a TotalCharges possui uma assimetria à direita, já a Tenure e MonthlyCharges se assemelham a distribuições Uniforme.
 
 ><div align="center"><img src="imagens/output3.png" alt="Boxplot" width="400"/></div>
-><div align="center"><img src="output4.png" alt="Boxplot" width="400"/></div>
-><div align="center"><img src="output5.png" alt="Boxplot" width="400"/></div>
+><div align="center"><img src="imagens/output4.png" alt="Boxplot" width="400"/></div>
+><div align="center"><img src="imagens/output5.png" alt="Boxplot" width="400"/></div>
 Após realizar uma análise bivariada entre as variáveis numéricas e a variável resposta: Churn, trazendo algumas medidas descritivas como: média, mediana e desvio padrão, foi possivel ver que não existe uma distinção discrepante entre os grupos do Churn (Yes; No), mostrando que em média o valor do TotalCharges fica em torno de 2562.1 para o que não teve cancelamento versus 2472.5 para o que teve cancelamento. 
 Assim como na MonthlyCharges, nota-se uma mediana em torno de 70.7 para o cliente que não realizou o cancelamento versus 69.5 para o cliente que realizou o cancelamento. E o mesmo comportamento similar na variável Tenure, mostrando uma média de 36.4 para o cliente que não realizou o cancelamento versus 35.6 para o cliente que realizou o cancelamento.
-><div align="center"><img src="output6.png" alt="Gráficos de Colunas Justaspostas" width="400"/></div>
-><div align="center"><img src="output7.png" alt="Gráficos de Colunas Justaspostas" width="400"/></div>
+><div align="center"><img src="imagens/output6.png" alt="Gráficos de Colunas Justaspostas" width="400"/></div>
+><div align="center"><img src="imagens/output7.png" alt="Gráficos de Colunas Justaspostas" width="400"/></div>
     
  
 - Modelos de Classificação:
@@ -106,7 +106,7 @@ Assim como na MonthlyCharges, nota-se uma mediana em torno de 70.7 para o client
 
   Baseado nos resultados obtidos das métricas, que xgboosting obteve alguns valores mais elevados nas métricas, no entando o naive bayes obvete os maiores valores e uma variação menor entre as métricas das duas bases, mostrando maior confiabilidade. A  Figura a seguir, traz a ilustração da Curva ROC.
 
-  ><div align="center"><img src="output8.png" alt="Curva ROC - Naive Bayes" width="400"/></div>
+  ><div align="center"><img src="imagens/output8.png" alt="Curva ROC - Naive Bayes" width="400"/></div>
 
   No Naive Bayes, não é calculada as Feature importance diretamente. No entanto, é possível inferir a importância das características analisando as probabilidades condicionais ou os pesos associados a cada característica. Sendo assim, é possível analisar média (theta_) e a variância (sigma_) de cada característica para cada classe. Na tabela a seguir pode-se observar tal média.
 
