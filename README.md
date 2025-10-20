@@ -64,14 +64,14 @@ Ou abra pelo [Google Colab](https://colab.research.google.com/)
 
 - Análise descritiva:
   Com o intuito de avaliar o comportamento dos dados, análises gráficas, tabulares e análises descritivas foram feitas. As Figuras a seguir ilustram alguns desses resultados:
-  ><div align="center"><img src="output2.png" alt="Categorização de variável com nulos" width="400"/></div>
- ><div align="center"><img src="output1.png" alt="Categorização de variável com nulos" width="400"/></div>
-  ><div align="center"><img src="output3.png" alt="Categorização de variável com nulos" width="400"/></div>
-   ><div align="center"><img src="output4.png" alt="Categorização de variável com nulos" width="400"/></div>
-    ><div align="center"><img src="output5.png" alt="Categorização de variável com nulos" width="400"/></div>
-     ><div align="center"><img src="output6.png" alt="Categorização de variável com nulos" width="400"/></div>
-      ><div align="center"><img src="output7.png" alt="Categorização de variável com nulos" width="400"/></div>
-       ><div align="center"><img src="output8.png" alt="Categorização de variável com nulos" width="400"/></div>
+><div align="center"><img src="output2.png" alt="Categorização de variável com nulos" width="400"/></div>
+><div align="center"><img src="output1.png" alt="Categorização de variável com nulos" width="400"/></div>
+><div align="center"><img src="output3.png" alt="Categorização de variável com nulos" width="400"/></div>
+><div align="center"><img src="output4.png" alt="Categorização de variável com nulos" width="400"/></div>
+><div align="center"><img src="output5.png" alt="Categorização de variável com nulos" width="400"/></div>
+><div align="center"><img src="output6.png" alt="Categorização de variável com nulos" width="400"/></div>
+><div align="center"><img src="output7.png" alt="Categorização de variável com nulos" width="400"/></div>
+><div align="center"><img src="output8.png" alt="Categorização de variável com nulos" width="400"/></div>
      
  
 
