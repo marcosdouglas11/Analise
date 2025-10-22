@@ -57,7 +57,22 @@ analises/
 ```
 ---
 ## Base de Dados
-
+Conjunto de dados com x clientes. Baseado em características desses cliente, o intuito foi avaliar a probabilidade de "Churn", ou seja o cancelamento. 
+As principais variáveis obtidas no conjunto de dados são:
+• customerID (ID)
+• gender, 
+• SeniorCitizen, 
+• Partner, 
+• Dependents
+• tenure, 
+• PhoneService, 
+• InternetService, 
+• Contract, 
+• PaperlessBilling, 
+• PaymentMethod
+• MonthlyCharges, 
+• TotalCharges
+• Churn (variável-alvo: “Yes”/“No”)
 
 
 ## 📊 Resultados
