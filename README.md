@@ -150,5 +150,12 @@ Assim como na MonthlyCharges, nota-se uma mediana em torno de 70.7 para o client
 >|DeviceProtection_No internet service|      0.506494|
 >|Contract_Two year    | 69.269817|
 >|Contract_One year   |2465.417548|
+
+## Conclusão
+
+
+Após analisar o conjunto de dados, trazendo uma visão descritiva e bivariada foi possível identificar e observar as características r comportamentos dos clientes, trazendo uma visão do cliente que obteve o Churn e o que não teve o Churn. 
+Na sequência, após utilização de modelos de machine learning, foi possível verificar o modelo que traria uma performance melhor nas métricas do modelo. Portanto, concluímos que o modelo considerado vencedor foi o Naive Bayes.
 ---
+
 
